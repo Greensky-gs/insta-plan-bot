@@ -1,0 +1,19 @@
+{
+    "name": "insta-plan-bot",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+        "@androz2091/insta.js": "^1.6.1",
+        "dotenv": "^16.4.5",
+        "tsc": "^2.0.4",
+        "tslib": "^2.6.2",
+        "typescript": "^5.4.3"
+    },
+    "scripts": {
+        "build": "yarn tsc -b",
+        "start": "node dist/index.js",
+        "ex": "yarn build && yarn start",
+        "launch": "yarn install && yarn ex"
+    }
+}
